@@ -47,7 +47,6 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>ID Xe</th>
                             <th>Tên</th>
                             <th>Thương Hiệu</th>
                             <th>Số Biển Số</th>
@@ -63,7 +62,6 @@
 
                         @foreach ($cars as $car)
                             <tr>
-                                <td>{{ $car->id }}</td>
                                 <td>{{ $car->name }}</td>
                                 <td>{{ $car->brand }}</td>
                                 <td>{{ $car->plat_num }}</td>
