@@ -164,7 +164,7 @@
                             <a class="text-decoration-none fw-semibold" href="{{ route('index_user') }}">View Account</a>
                         </li>
                         <li class="dropdown-item px-4 py-2 dropdown-link">
-                            <a class="text-decoration-none fw-semibold" href="{{ route('show_order') }}">Pemesanan</a>
+                            <a class="text-decoration-none fw-semibold" href="{{ route('show_order') }}">Lịch sử mượn xe</a>
                         </li>
                         <li class="dropdown-item px-4 py-2 rounded-bottom dropdown-link">
 
