@@ -1,0 +1,257 @@
+[33mcommit 8832ddd100a249df36d33c38b9b9e7272f388012[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: b46b0d3 d76157d
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Sun Sep 15 08:56:48 2024 +0700
+
+    up
+
+[33mcommit b46b0d37908cd6ba3035daed1ee67814c4022c78[m
+Merge: 0e13a31 7ebe9a5
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Sun Sep 15 08:54:20 2024 +0700
+
+[33mcommit d76157d693920e01e1d493357b2a8b42794ea596[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:53:05 2024 +0700
+
+    Delete vite.config.js
+
+[33mcommit 5016a25533674df0797d1fab846501c091b5f7c9[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:52:56 2024 +0700
+
+    Delete phpunit.xml
+
+[33mcommit 679903ae75aa6e4c0b7c828ec3c1a8625a599a1f[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:52:49 2024 +0700
+
+    Delete package.json
+
+[33mcommit 5f0372e3f82b7b5958ffa07c10f67c8d3d2b1a56[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:52:40 2024 +0700
+
+    Delete package-lock.json
+
+[33mcommit 4890ddb3e78f28535c4818627e45c3600b8429c9[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:52:32 2024 +0700
+
+    Delete composer.lock
+
+[33mcommit d730abd6e76c7d00d37b60d722ac429b119fda53[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:52:23 2024 +0700
+
+    Delete composer.json
+
+[33mcommit 0e2c6dba3b86c030d3288b35f4257a7c6b3a07a1[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:52:11 2024 +0700
+
+    Delete README.md
+
+[33mcommit 157b01ba2d8ef7dc5e0cca2792c889f301549886[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:52:01 2024 +0700
+
+    Delete .gitignore
+
+[33mcommit 0e13a3195c476efd1ca833054804f72424b18f18[m
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Sun Sep 15 08:40:24 2024 +0700
+
+    update
+
+[33mcommit 7ebe9a52d4cadf63a8302cb582d0435fde963457[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:39:28 2024 +0700
+
+    Delete artisan
+
+[33mcommit 3763f21e2bd0d35eec838c1fd5a7a0bd5675577f[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:39:11 2024 +0700
+
+    Delete .gitattributes
+
+[33mcommit 778bcb63b6f3f44ed17dc918c1647c5e65a8041f[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:39:01 2024 +0700
+
+    Delete .env.example
+
+[33mcommit 5e9815de830623f25fa182d333d0d364e43499bb[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:38:44 2024 +0700
+
+    Delete .editorconfig
+
+[33mcommit 3800f1ac21b95e24879da0191abfadb050e82573[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:38:20 2024 +0700
+
+    Delete tests directory
+
+[33mcommit b71d0c51a9a192ec7efd387369c128c3fce5c139[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:38:13 2024 +0700
+
+    Delete storage directory
+
+[33mcommit 0c3a31fb66c151898ca2d4c76cf057460f10df9d[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:38:02 2024 +0700
+
+    Delete routes directory
+
+[33mcommit 0250d5f5ca34522151e85c5bb166a153410f96f9[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:37:49 2024 +0700
+
+    Delete resources directory
+
+[33mcommit 89a32a2c46eed9606cbe4044e3454572b8c8e204[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:37:41 2024 +0700
+
+    Delete public directory
+
+[33mcommit 0008e54e776b0af3c12171f84530da86f07d9e42[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:37:31 2024 +0700
+
+    Delete database directory
+
+[33mcommit 4fa8784336732c31b62acb500a8e21ee718657e0[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:37:00 2024 +0700
+
+    Delete config directory
+
+[33mcommit 7d974231c4f5e6f74fe930cae3a1c251c99e8377[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:36:51 2024 +0700
+
+    Delete bootstrap directory
+
+[33mcommit c61d283dca5e962c8c804e57ce860671aa491082[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Sun Sep 15 08:36:30 2024 +0700
+
+    Delete app directory
+
+[33mcommit 8a7a6de89a494a617369552abfb5c656c838457d[m
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Sat Sep 14 00:13:42 2024 +0700
+
+    update
+
+[33mcommit 9a9d9251d52bbd0ad474aff26f285875126bfad1[m
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Sat Sep 14 00:12:51 2024 +0700
+
+    update
+
+[33mcommit ae418b8e522d8bdb42945437fd592df101388b5e[m
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Fri Sep 13 23:43:35 2024 +0700
+
+    css
+
+[33mcommit d369ee68c5362b358612351b39071765a3903350[m
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Fri Sep 13 23:33:01 2024 +0700
+
+    css
+
+[33mcommit 6ac261e3587f0102940729bd967a65c13425d5f4[m
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Fri Sep 13 23:22:15 2024 +0700
+
+    update full view layout  và phân quyền user admin cho nó
+
+[33mcommit 6ec2be83d138599ac79ca81d60f6071db8f59cf9[m
+Merge: d2195c5 b3c194a
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Fri Sep 13 22:22:17 2024 +0700
+
+    Merge branch 'main' of https://github.com/KhaiNguyen07012005/C2310L-ThiCuoiKy-The-Amateur.git
+
+[33mcommit d2195c534172545640b18034e19b4c837e444baa[m
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Fri Sep 13 22:20:54 2024 +0700
+
+    update full option
+
+[33mcommit 937f93b5f604b9f95dfc74fc25bbfe10b8e2f874[m
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Fri Sep 13 22:13:25 2024 +0700
+
+    update full option tài xế và view dashboard
+
+[33mcommit b3c194a20f867f40ec0f8e33df4d4d2c183ea01f[m
+Merge: 94fed37 3a68445
+Author: Hoan2k3 <hoanspurs2@gmail.com>
+Date:   Tue Sep 10 17:08:22 2024 +0700
+
+    Merge branch 'main' of https://github.com/KhaiNguyen07012005/PHP-WITH-LARAVEL-C2310L
+
+[33mcommit 94fed37b1674566de6bbab4da1a3f7736c39cbf1[m
+Author: Hoan2k3 <hoanspurs2@gmail.com>
+Date:   Tue Sep 10 17:01:23 2024 +0700
+
+    update drivers
+
+[33mcommit 3a6844521bb535914822bcc42e2f5738fc70416b[m
+Merge: 43a4fdb ecc11ec
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Mon Sep 9 23:07:38 2024 +0700
+
+    Merge pull request #2 from KhaiNguyen07012005/minh
+
+    update
+
+[33mcommit ecc11ec5b8610a3c23fec467924ad94ff36d8d8a[m[33m ([m[1;31morigin/minh[m[33m)[m
+Author: AnhMinhTruongHoang <truonghoanganhminh2000@gmail.com>
+Date:   Mon Sep 9 22:58:34 2024 +0700
+
+    ok
+
+[33mcommit 43a4fdbcfef2425b7f8bb8abffa5121e3c63c90b[m
+Author: Hoan2k3 <hoanspurs2@gmail.com>
+Date:   Mon Sep 9 21:55:34 2024 +0700
+
+    update borrowings
+
+[33mcommit eb5855e93a3b727b115ca1ae9615ad79742fddcb[m[33m ([m[1;31morigin/datnt[m[33m)[m
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Tue Sep 3 19:18:42 2024 +0700
+
+    update
+
+[33mcommit 312a1fcfea4d6041557a5fd9f56f7fa26d9e207c[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Wed Aug 28 16:28:31 2024 +0700
+
+    Update app.blade.php
+
+[33mcommit 47e1df6f086859f9e75240e83e55c8f4a4bcb95d[m
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Wed Aug 28 16:19:10 2024 +0700
+
+    update
+
+[33mcommit 634351c9a5ead05e92e35cae5cb010891e682785[m
+Author: KhaiNguyen07012005 <154899752+KhaiNguyen07012005@users.noreply.github.com>
+Date:   Wed Aug 28 16:04:14 2024 +0700
+
+    Update index.blade.php
+
+[33mcommit b82743d88be15fbeb0305ddef75efe04255ce0cc[m
+Author: KhaiNguyen07012005 <kahinguyendinh365@gmail.com>
+Date:   Wed Aug 28 15:26:36 2024 +0700
+
+    C2310L CK
+
