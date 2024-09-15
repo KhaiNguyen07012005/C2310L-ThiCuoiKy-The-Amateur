@@ -36,10 +36,6 @@ Route::get('/faq', [App\Http\Controllers\HomeController::class, 'faq'])->name('f
 
 Route::get('/car', [CarController::class, 'index_car'])->name('index_car');
 
-
-
-
-
 Route::middleware(['admin'])->group(function () {
 
     Route::get('/admin/dashboardreturn/edit/{CarReturn}', [CarReturnController::class, 'edit_validate_car'])->name('edit_validate_car');
