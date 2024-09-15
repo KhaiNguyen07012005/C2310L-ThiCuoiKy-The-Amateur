@@ -40,14 +40,13 @@
         <div class="table-data">
             <div class="order">
                 <div class="head">
-                    <h3>Bảng Xe</h3>
+                    <h3 style="color: blue">Bảng Xe</h3>
                     <i class='bx bx-search'></i>
                     <i class='bx bx-filter'></i>
                 </div>
                 <table>
                     <thead>
                         <tr>
-                            <th>ID Xe</th>
                             <th>Tên</th>
                             <th>Thương Hiệu</th>
                             <th>Số Biển Số</th>
@@ -63,7 +62,6 @@
 
                         @foreach ($cars as $car)
                             <tr>
-                                <td>{{ $car->id }}</td>
                                 <td>{{ $car->name }}</td>
                                 <td>{{ $car->brand }}</td>
                                 <td>{{ $car->plat_num }}</td>
