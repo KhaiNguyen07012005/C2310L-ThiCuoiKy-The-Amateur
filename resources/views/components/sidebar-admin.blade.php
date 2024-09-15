@@ -129,7 +129,7 @@
         <nav>
             <i class='bx bx-menu'></i>
             <h4>Dashboard Auto Rent</h4>
-            {{-- <a href="#" class="nav-link">Categories</a>
+            <a href="#" class="nav-link">Categories</a>
             <form action="#">
                 <div class="form-input">
                     <input type="search" placeholder="Search...">
@@ -144,6 +144,6 @@
             </a>
             <a href="#" class="profile">
                 <img src="img/people.png">
-            </a> --}}
+            </a>
         </nav>
         <!-- NAVBAR -->

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" media="all" />
     <style>
         @font-face {
-            font-family: SourceSansPro;
+            font-family: 'SourceSansPro', Arial, sans-serif;
             src: url(SourceSansPro-Regular.ttf);
         }
 
@@ -34,9 +34,8 @@
             margin: 0 auto;
             color: #555555;
             background: #FFFFFF;
-            font-family: Arial, sans-serif;
+            font-family: 'SourceSansPro', Arial, sans-serif; /* Đặt phông chữ chính */
             font-size: 14px;
-            font-family: SourceSansPro;
         }
 
         header {
@@ -94,6 +93,7 @@
 
         h1 {
             text-align: center;
+            font-size: 2em; /* Điều chỉnh cỡ chữ tiêu đề chính */
         }
 
         #invoice .date {
@@ -175,7 +175,7 @@
         <div id="company">
             <h2 class="name">The Amateurs</h2>
             <div></div>
-            <div>+62 896-4908-16210</div>
+            <div>+84 0000-1111</div>
             <div><a href="mailto:company@example.com">cs.autorent@gmail.com</a></div>
         </div>
     </header>

@@ -328,7 +328,7 @@
                         <a class="nav-link" aria-current="page" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('index_car') }}">Mobil</a>
+                        <a class="nav-link" href="{{ route('index_car') }}">History</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('contact') }}">Contact</a>

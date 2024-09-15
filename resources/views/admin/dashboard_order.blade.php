@@ -97,7 +97,7 @@
                         @endif
 
                         <p>Ngày Thuê: {{ $order->rent_date }}</p>
-                        {{-- <p> Ngày Trả:{{ $order->return_date }}</p>  --}}
+                        <p> Ngày Trả:{{ $order->return_date }}</p>
                         Biên Nhận Thanh Toán:
                         @if ($order->payment->payment_receipt == null)
                             Chưa có biên nhận

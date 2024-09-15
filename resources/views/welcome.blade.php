@@ -95,12 +95,12 @@
         document.addEventListener('DOMContentLoaded', function() {
             var carouselExample = document.getElementById('carouselExample');
             var carousel = new bootstrap.Carousel(carouselExample, {
-                interval: 5000
+                interval: 4000
             });
 
             setInterval(function() {
                 carousel.next();
-            }, 5000);
+            }, 4000);
         });
     </script>
 

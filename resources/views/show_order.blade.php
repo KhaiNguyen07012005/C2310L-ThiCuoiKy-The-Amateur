@@ -56,7 +56,7 @@
                         <div class="col-md-5 me-">
                             <div class="card-body text-end">
                                 <div class="card-content mb-3">
-                                    <p class="card-title fw-bold" style="font-size: 35px;">Rp
+                                     <p class="card-title fw-bold" style="font-size: 35px;">VND
                                         {{ $order->payment->cost }}</p>
                                     <p class="card-title">Trạng Thái</p>
                                     @if ($order->payment->payment_receipt == null)

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Liên Hệ Auto Rent</title>
+    <title>Liên Hệ Chúng Tôi</title>
     <link rel="icon" href="logo1_green.png" sizes="50" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
@@ -59,7 +59,7 @@
                             <i class="fa fa-2x fa-map-marker-alt text-success flex-shrink-0 mr-3 me-3 ml-1"></i>
                             <div class="mt-n1">
                                 <h5 class="text-light">Trụ Sở Chính</h5>
-                                <a class="text-decoration-none" href="https://goo.gl/maps/ZyrzAWhDEuLamKdHA" style="color: #8486a0">Nhà Mario</a>
+                                <a class="text-decoration-none" href="https://maps.app.goo.gl/PwnSJawzQhnguW7n8" style="color: #8486a0">Nhà APTECH</a>
                             </div>
                         </div>
                         <div class="d-flex mb-4 mt-4">
@@ -73,7 +73,7 @@
                             <i class="fa fa-2x fa-phone text-success flex-shrink-0 mr-3 me-3 ml-1" style="transform: scaleX(-1);"></i>
                             <div class="mt-n1">
                                 <h5 class="text-light">Điện Thoại</h5>
-                                <a class="m-0 text-decoration-none" href="tel:+62 896-4908-1621" style="color: #8486a0">+62 896-4908-1621</a>
+                                <a class="m-0 text-decoration-none" href="tel:+62 896-4908-1621" style="color: #8486a0">+84 0000-1111</a>
                             </div>
                         </div>
                     </div>

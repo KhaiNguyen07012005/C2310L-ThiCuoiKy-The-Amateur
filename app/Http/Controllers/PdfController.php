@@ -27,7 +27,7 @@ class PdfController extends Controller
 
         $imagePath = public_path('user/img/logo1_green.png');
 
-        $pdf = PDF::loadView('pdf.history', compact('orders', 'imagePath'));
+        $pdf = PDF::loadView('pdf.history', compact('orders', 'imagePath'))->setOptions(['defaultFont' => 'Arial']);
 
         return $pdf->stream();
     }
@@ -53,7 +53,7 @@ class PdfController extends Controller
 
         $imagePath = public_path('user/img/logo1_green.png');
 
-        $pdf = PDF::loadView('pdf.baocao', compact('orders', 'imagePath'));
+        $pdf = PDF::loadView('pdf.baocao', compact('orders', 'imagePath')) ->setOptions(['defaultFont' => 'Arial']);
 
         return $pdf->stream();
     }

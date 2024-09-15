@@ -24,7 +24,7 @@
                 <div class="col-lg-6 mt-4 ps-3 d-flex flex-column justify-content-around">
                     <div class="row px-3">
                         <h1 class="fw-bold">{{ $car->brand }}{{ $car->name }}</h1>
-                        <p class="fs-3 fw-semibold">Rp {{ $car->price }}/ngày</p>
+                        <p class="fs-3 fw-semibold"> {{ $car->price }} VNĐ/ngày</p>
                     </div>
                     <form action="{{ route('add_order', $car) }}" method="post" class="">
                         @csrf

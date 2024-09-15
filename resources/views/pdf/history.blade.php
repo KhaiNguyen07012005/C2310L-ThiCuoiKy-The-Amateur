@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ví dụ 2</title>
     <link rel="stylesheet" href="style.css" media="all" />
     <style>
         @font-face {
-            font-family: SourceSansPro;
-            src: url(SourceSansPro-Regular.ttf);
+            font-family: 'SourceSansPro';
+            src: url('SourceSansPro-Regular.ttf');
         }
 
         .clearfix {
@@ -34,9 +35,8 @@
             margin: 0 auto;
             color: #555555;
             background: #FFFFFF;
-            font-family: Arial, sans-serif;
+            font-family: 'SourceSansPro', Arial, sans-serif;
             font-size: 14px;
-            font-family: SourceSansPro;
         }
 
         header {
@@ -197,7 +197,6 @@
             font-size: 1.2em;
         }
 
-        /* Thêm CSS sau đây */
         html,
         body {
             height: 100%;
@@ -219,40 +218,39 @@
             font-size: 14px;
             bottom: 0;
             left: 0;
-            width: 98%
+            width: 98%;
         }
     </style>
 </head>
 
 <body>
-    <header class="clearfix" style="margin-top: 20px; ">
+    <header class="clearfix" style="margin-top: 20px;">
         <div>
             <img src="{{ $imagePath }}" alt="" style="width: 100px; height: auto">
         </div>
         <div id="company">
-            <h2 class="name">AutoRent Semarang</h2>
+            <h2 class="name">The Amateur</h2>
             <div></div>
-            <div>+62 896-4908-16210</div>
-            <div><a href="mailto:company@example.com">cs.autorent@gmail.com</a></div>
+            <div>+84 0000-1111</div>
+            <div><a href="mailto:cs.autorent@gmail.com">cs.autorent@gmail.com</a></div>
         </div>
     </header>
     <br>
     <main>
         @foreach ($orders as $order)
-            <div style="margin-bottom: 100px">
+            <div style="margin-bottom: 100px;">
                 <div id="client">
                     <div class="to">HÓA ĐƠN ĐẾN:</div>
                     <h2 class="name">{{ $order->payment->user->name }}</h2>
-                    <div class="email"><a href="">{{ $order->payment->user->email }}</a></div>
+                    <div class="email"><a href="mailto:{{ $order->payment->user->email }}">{{ $order->payment->user->email }}</a></div>
                 </div>
                 <div id="invoice" style="margin-bottom: 20px;">
-                    <h1>MÃ HÓA ĐƠN : {{ $order->id }}</h1>
+                    <h1>MÃ HÓA ĐƠN: {{ $order->id }}</h1>
                     <div class="date">Ngày hóa đơn: {{ $order->payment->created_at }}</div>
-
                 </div>
             </div>
 
-            <table style="">
+            <table>
                 <thead>
                     <tr>
                         <th class="desc">Mô tả</th>
@@ -264,35 +262,27 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="desc">
-                            {{ $order->car->brand }}{{ $order->car->name }}
-                        </td>
-                        <td class="unit">Rp{{ $order->car->price }}/ngày</td>
+                        <td class="desc">{{ $order->car->brand }} {{ $order->car->name }}</td>
+                        <td class="unit">{{ $order->car->price }} VNĐ/ngày</td>
                         <td class="qty">{{ $order->rent_date }}</td>
                         <td class="qty">{{ $order->return_date }}</td>
-                        <td class="total">Rp{{ $order->payment->cost }}</td>
+                        <td class="total">{{ $order->payment->cost }} VNĐ</td>
                     </tr>
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="2"></td>
-                        <td colspan="2">Tổng số tiền</td>
-                        <td>Rp{{ $order->payment->cost }}</td>
+                        <td colspan="3"></td>
+                        <td>Tổng chi phí</td>
+                        <td class="total">{{ $order->payment->cost }} VNĐ</td>
                     </tr>
                 </tfoot>
             </table>
-            <div id="thanks">Chúng tôi muốn cảm ơn bạn vì đã tin tưởng sử dụng dịch vụ cho thuê của chúng tôi. Đây là một vinh dự cho chúng tôi khi có thể là một phần trong hành trình của bạn và mang đến cho bạn những trải nghiệm thú vị.</div>
-            <div id="notices">
-                <div>THÔNG BÁO:</div>
-                <div class="notice">Biên lai thanh toán này phải được mang theo khi nhận xe cho thuê.</div>
-            </div>
         @endforeach
     </main>
     <footer>
         <div class="footer-content">
-            AutoRent The Amateur
-            <br>
-            Drive Ur Dream, Rent With Us!
+            <h4>The Amateur</h4>
+            <p>Thông tin liên hệ</p>
         </div>
     </footer>
 </body>
