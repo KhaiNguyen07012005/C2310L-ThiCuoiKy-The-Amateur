@@ -26,7 +26,7 @@
                                 <h5 class="card-title">{{ $car->name }}</h5>
                                 <p class="rent-merk">{{ $car->brand }}</p>
                             </div>
-                            <p class="rent-price fw-semibold d-flex justify-content-center">{{ $car->price }}/day</p>
+                            <p class="rent-price fw-semibold d-flex justify-content-center">{{ $car->price }}/Ngày</p>
                             <form action="{{ route('show_car', $car) }}" method="get">
                                 <button type="submit"
                                     class="btn btn-rent border-0 rounded-0 rounded-bottom p-2 fw-semibold w-100">

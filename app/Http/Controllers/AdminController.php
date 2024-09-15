@@ -88,7 +88,7 @@ class AdminController extends Controller
             'capacity' => 'required',
             'fuel' => 'required',
             'price' => 'required',
-            // 'car_img' => 'required'
+             'car_img' => 'required'
         ]);
 
         if ($request->hasFile('car_img')) {
@@ -111,7 +111,7 @@ class AdminController extends Controller
             'capacity' => $request->capacity,
             'fuel' => $request->fuel,
             'price' => $request->price,
-            // 'car_img' => $path
+             'car_img' => $path
         ]);
 
         return Redirect::route('dashboard_car');
