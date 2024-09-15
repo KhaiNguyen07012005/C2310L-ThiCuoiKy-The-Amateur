@@ -40,7 +40,7 @@
         <div class="table-data">
             <div class="order">
                 <div class="head">
-                    <h3>Bảng Xe</h3>
+                    <h3 style="color: blue">Bảng Xe</h3>
                     <i class='bx bx-search'></i>
                     <i class='bx bx-filter'></i>
                 </div>
