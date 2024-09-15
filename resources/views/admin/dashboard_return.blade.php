@@ -43,7 +43,7 @@
                     <thead>
                         <tr>
                             <th>STT</th>
-                            <th>ID</th>
+
                             <th>ID ĐƠN HÀNG</th>
                             <th>Ngày Thuê</th>
                             <th>Ngày Trả</th>
