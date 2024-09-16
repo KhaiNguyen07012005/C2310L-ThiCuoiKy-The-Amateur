@@ -31,25 +31,27 @@
             <div class="row">
                 <div class="col-lg-7 mb-2">
                     <div class="contact-form bg-light mb-4 shadow-lg" style="padding: 30px">
-                        <form>
+                        <form action="{{ route('contact.send') }}" method="POST">
+                            @csrf
                             <div class="row mb-3">
                                 <div class="col-6 form-group">
-                                    <input type="text" class="form-control p-4" placeholder="Tên của bạn" required="required" />
+                                    <input type="text" name="name" class="form-control p-4" placeholder="Tên của bạn" required="required" />
                                 </div>
                                 <div class="col-6 form-group">
-                                    <input type="email" class="form-control p-4" placeholder="Email của bạn" required="required" />
+                                    <input type="email" name="email" class="form-control p-4" placeholder="Email của bạn" required="required" />
                                 </div>
                             </div>
                             <div class="form-group mb-3">
-                                <input type="text" class="form-control p-4" placeholder="Chủ đề" required="required" />
+                                <input type="text" name="subject" class="form-control p-4" placeholder="Chủ đề" required="required" />
                             </div>
                             <div class="form-group mb-3">
-                                <textarea class="form-control py-3 px-4" rows="5" placeholder="Tin nhắn" required="required"></textarea>
+                                <textarea name="message" class="form-control py-3 px-4" rows="5" placeholder="Tin nhắn" required="required"></textarea>
                             </div>
                             <div>
                                 <button class="btn btn-success py-3 px-5" type="submit">Gửi Tin Nhắn</button>
                             </div>
                         </form>
+
                     </div>
                 </div>
                 <div class="col-lg-5 mb-2">

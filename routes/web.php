@@ -10,6 +10,7 @@ use App\Http\Controllers\ReturnCarController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,6 +32,7 @@ Auth::routes();
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
+Route::post('/contact', [ContactController::class, 'sendMail'])->name('contact.send');
 Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
 Route::get('/faq', [App\Http\Controllers\HomeController::class, 'faq'])->name('faq');
 
@@ -72,3 +74,5 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/order/{car}', [OrderController::class, 'add_order'])->name('add_order');
     Route::post('/order/{payment}/pay', [PaymentController::class, 'submit_payment_receipt'])->name('submit_payment_receipt');
 });
+
+
