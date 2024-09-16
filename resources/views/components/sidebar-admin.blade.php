@@ -128,7 +128,7 @@
         <!-- NAVBAR -->
         <nav>
             <i class='bx bx-menu'></i>
-            <h4>Dashboard Auto Rent</h4>
+            <h4 style="color: greenyellow ">Dashboard Auto Rent</h4>
             <a href="#" class="nav-link">Categories</a>
             <form action="#">
                 <div class="form-input">
