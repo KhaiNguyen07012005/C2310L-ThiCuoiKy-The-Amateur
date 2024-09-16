@@ -111,10 +111,9 @@
         </ul>
         <ul class="side-menu">
 
-            <li>
-                <a href="#" class="logout">
-                    <i class='bx bxs-log-out-circle'></i>
-                    <span class="text">Logout</span>
+            <li class="">
+                <a href="{{ route('home') }}" class="nav-link" style="color: blue">
+                    <i class='bx bxs-credit-card'>Home</i>
                 </a>
             </li>
         </ul>

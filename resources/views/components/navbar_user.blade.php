@@ -120,11 +120,12 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
                 <ul class="navbar-nav fw-semibold">
+
                     <li class="nav-item nav-link-bg">
                         <a class="nav-link" aria-current="page" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('index_car') }}">History</a>
+                        <a class="nav-link" href="{{ route('index_car') }}">Car</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('contact') }}">Contact</a>
@@ -324,11 +325,12 @@
 
 
                     </div>
+
                     <li class="nav-item nav-link-bg">
                         <a class="nav-link" aria-current="page" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('index_car') }}">History</a>
+                        <a class="nav-link" href="{{ route('index_car') }}">Car</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('contact') }}">Contact</a>
